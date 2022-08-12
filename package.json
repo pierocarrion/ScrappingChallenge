@@ -1,0 +1,24 @@
+{
+  "name": "ScrappingDeliverable",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "<piero.january15@gmail.com>",
+  "type":"module",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node config/esbuild.js",
+    "db-json": "json-server --watch mock/db.json"
+  },
+  "devDependencies": {
+    "esbuild": "^0.14.54",
+    "eslint": "^8.21.0",
+    "json-server": "^0.17.0"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "dayjs": "^1.11.4",
+    "dexie": "^3.2.2",
+    "dotenv": "^16.0.1",
+    "schm": "^0.4.1"
+  }
+}
