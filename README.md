@@ -1,6 +1,5 @@
 # Scrapping Challenge
 Chrome extension that allows the scraping of Linkedin accounts according to an Input (keyword). NodeJS was used for its creation
-[![NodeJS]]
 
 ### Requirement 
  1. Chromium Browser
