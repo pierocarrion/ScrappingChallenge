@@ -1,14 +1,22 @@
 # Scrapping Challenge
-## Change keyword
+Chrome extension that allows the scraping of Linkedin accounts according to an Input (keyword). NodeJS was used for its creation
+[![NodeJS]]
 
+### Requirement 
+ 1. Chromium Browser
+ 2. LinkedIn Account with a large network
 
+### Change keyword
+In src/scripts/scrapCandidates.js - Line 52
 ```sh
-In scrapCandidates.js - line 52
 const keywordToLookFor = 'full stack'
 ```
-## Run Json-Server
 
+### Deployment
 ```sh
-Execute 'yarn db-json'
+yarn db-json npm run db-json
 ```
-
+Or
+```sh
+npm run db-json
+```
