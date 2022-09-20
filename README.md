@@ -14,7 +14,7 @@ const keywordToLookFor = 'full stack'
 
 ### Deployment
 ```sh
-yarn db-json npm run db-json
+yarn db-json
 ```
 Or
 ```sh
