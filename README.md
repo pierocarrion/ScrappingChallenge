@@ -5,7 +5,7 @@ Chrome extension that allows the scraping of Linkedin accounts according to an I
  1. Chromium Browser
  2. LinkedIn Account with a large network
 
-### Change keyword
+### Keyword
 In src/scripts/scrapCandidates.js - Line 52
 ```sh
 const keywordToLookFor = 'full stack'
